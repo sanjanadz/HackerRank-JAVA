@@ -14,8 +14,12 @@ class Solution{
             for(int j =0; j<n; j++){
                 
                  int v= b * (int) Math.pow(2, j);
-                 a = a+ v; 
+                 a = a+ v;
+
+                 //or a += b * (int) Math.pow(2, j);
+
                 System.out.print(a+ " ");
+
             }
               System.out.println();
         }
